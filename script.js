@@ -71,10 +71,10 @@ async function handleSend() {
   try {
     const replyText = await fetchChatbotReply(text);
     loadingBubble.remove();
-    addMessage(`<strong>Clown:</strong> ${replyText}`, "bot");
+    addMessage(`<strong>CheerfulCharley:</strong> ${replyText}`, "bot");
   } catch (error) {
     loadingBubble.remove();
-    addMessage(`<strong>Clown:</strong> Oops! The clown dropped the ball. ${error.message}`, "bot");
+    addMessage(`<strong>CheerfulCharley:</strong> Oops! The clown dropped the ball. ${error.message}`, "bot");
   }
 }
 
