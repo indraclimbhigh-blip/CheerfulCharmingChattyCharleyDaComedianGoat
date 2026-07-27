@@ -1,0 +1,13 @@
+{
+  "name": "cheerful-charming-chatty-charley-da-comedian-goat",
+  "version": "0.1.0",
+  "description": "A chatty comedian chatbot that plans its answers with a hidden LLM step before replying.",
+  "type": "module",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "node chatbot.js"
+  },
+  "dependencies": {
+    "openai": "^4.9.0"
+  }
+}
