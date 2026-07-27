@@ -16,7 +16,7 @@ function createLoadingBubble() {
   const loader = document.createElement("div");
   loader.classList.add("chat-message", "bot");
   loader.setAttribute("id", "loaderBubble");
-  loader.innerHTML = `Charley is thinking <span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span>`;
+  loader.innerHTML = `The clown is juggling your question <span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span>`;
   chatWindow.appendChild(loader);
   chatWindow.scrollTop = chatWindow.scrollHeight;
   return loader;
@@ -71,10 +71,10 @@ async function handleSend() {
   try {
     const replyText = await fetchChatbotReply(text);
     loadingBubble.remove();
-    addMessage(`<strong>Charley:</strong> ${replyText}`, "bot");
+    addMessage(`<strong>Clown:</strong> ${replyText}`, "bot");
   } catch (error) {
     loadingBubble.remove();
-    addMessage(`<strong>Charley:</strong> Oops! Something went sideways. ${error.message}`, "bot");
+    addMessage(`<strong>Clown:</strong> Oops! The clown dropped the ball. ${error.message}`, "bot");
   }
 }
 
@@ -88,6 +88,6 @@ userInput.addEventListener("keydown", (event) => {
 
 // Start the chat with a cheerful greeting message.
 addMessage(
-  `Hey superstar! I'm Charley the Chatty Comedian Goat. Type a question, and I'll whisper it to my backstage AI coach before I deliver the funniest answer I can muster.`,
+  `Hey superstar! Welcome to # CheerfulCharmingChattyCharleyDaComedianGoat. Type a question and the clown crew will send it through the circus brain before popping out a silly answer!`,
   "bot"
 );

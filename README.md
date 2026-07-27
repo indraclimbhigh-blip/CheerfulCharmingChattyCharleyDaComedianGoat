@@ -1,18 +1,18 @@
 # CheerfulCharmingChattyCharleyDaComedianGoat
 
-A colorful, fun, and interactive comedian chatbot web app.
+A colorful, fun, and interactive clown-themed chatbot web app.
 
 ## What’s included
 
-- `index.html`: modern chat UI for Charley the Chatty Comedian Goat
-- `styles.css`: bright, playful styling with gradients and glassmorphism
+- `index.html`: clowny chat UI for # CheerfulCharmingChattyCharleyDaComedianGoat
+- `styles.css`: bright red and yellow circus styling with a goofy clown background
 - `script.js`: fetch-based AI logic using your classroom proxy server
 
 ## How to use
 
 1. Open `index.html` in a browser.
 2. Type a question into the text area.
-3. Click **Send to Charley** or press **Enter**.
+3. Click **Send to the Clown** or press **Enter**.
 
 ## How it works
 
